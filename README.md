@@ -21,16 +21,6 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Agent skill that removes signs of AI-generated writing from text.
 - **Warum hier:** Es ist fuer Linux verfuegbar, unter einer freizuegigen Open-Source-Lizenz, mit grosser aktiver Community.
 
-### [GoogleDriveSync](https://github.com/saihgupr/GoogleDriveSync)
-
-- **Zweck:** A native macOS menu bar app for seamless Google Drive syncing.
-- **Warum hier:** Es ist plattformuebergreifend nutzbar, unter einer freizuegigen Open-Source-Lizenz.
-
-### [Moodle Designer: Mehr Barrierefreiheit per Copy & Paste](https://lernsachen.blog/2026/03/08/moodle-designer-mehr-barrierefreiheit-per-copy-paste/)
-
-- **Zweck:** Moodle Designer: Mehr Barrierefreiheit per Copy &amp; Paste &#8211; LernSachen Zum Inhalt springen Menü Alle Beiträge iPad Basics Große Neuigkeiten mit iPadOS im Herbst iPadOS13 Multitouch Gesten iOS 12 Basics iOS11 Basics auf dem iPad iPad Basics Geführter Zugriff Basics Über d.
-- **Warum hier:** Es ist plattformuebergreifend nutzbar.
-
 ### [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity/blob/master/README.md)
 
 - **Zweck:** Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project..
@@ -41,10 +31,6 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** A meeting note-taker that talks back..
 - **Warum hier:** Es ist plattformuebergreifend nutzbar, unter einer freizuegigen Open-Source-Lizenz, mit aktiver Community.
 
-### [sw33tLie/macshot](https://github.com/sw33tLie/macshot)
-
-- **Zweck:** GitHub - sw33tLie/macshot: Feature-packed native macOS screenshot &amp; recording tool: annotate, auto-redact PII, record GIFs, OCR + translate, scroll capture, beautify, and more. No Electron, no subscription. · GitHub Skip to content Navigation Menu Sign in Appearance settings.
-- **Warum hier:** Es ist plattformuebergreifend nutzbar.
 
 ### [RevPDF](https://haak3.de/tools-apps/)
 
@@ -53,10 +39,8 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 ## Entwicklung
 
-### [GitHub - gitroomhq/postiz-app: 📨 The ultimate agentic social media scheduling tool 🤖](https://github.com/gitroomhq/postiz-app)
 
-- **Zweck:** 📨 The ultimate agentic social media scheduling tool 🤖.
-- **Warum hier:** Es ist fuer Linux verfuegbar, unter AGPL-3.0-Lizenz, mit grosser aktiver Community.
+
 ## Sicherheit
 
 _Noch keine Empfehlungen._
