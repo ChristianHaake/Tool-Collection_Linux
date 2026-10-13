@@ -37,6 +37,11 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Plattformübergreifender PDF-Editor für Bearbeitung, OCR, Formulare, Konvertierungen und Schwärzungen.
 - **Warum hier:** Die lokale Verarbeitung macht ihn für vertrauliche Dokumente besonders interessant.
 
+### [Euro-Office/DesktopEditors](https://github.com/Euro-Office/DesktopEditors)
+
+- **Zweck:** Freie Desktop-Office-Suite mit Document-, Spreadsheet-, Presentation- und PDF-Editor sowie Diagram-Viewer; voll offline-fähig und kompatibel mit .docx/.xlsx/.pptx.
+- **Warum hier:** Vollständige Office-Suite ohne Cloud-Zwang, AGPL-lizenziert und nativ für Linux verfügbar – schließt die lokale Office-Lücke in der Sammlung.
+
 ## Entwicklung
 
 
