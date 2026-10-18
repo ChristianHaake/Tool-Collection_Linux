@@ -218,6 +218,86 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Plattformübergreifende Open-Source-Anwendung für die lokale, KI-gestützte Transkription von Audio- und Videodateien.
 - **Warum hier:** Die Offline-Verarbeitung eignet sich besonders für sensible Gesprächs- und Forschungsdaten.
 
+### [GIMP](https://www.gimp.org/)
+
+- **Zweck:** Professionelles Open-Source-Bildbearbeitungsprogramm für Fotoretusche, Bildkomposition und Grafikerstellung.
+- **Warum hier:** Das klassische freie Pendant zu Adobe Photoshop mit umfangreicher Plugin-Architektur und Skriptfähigkeit.
+
+### [Krita](https://krita.org/)
+
+- **Zweck:** Leistungsstarkes Mal- und Zeichenprogramm für digitale Künstler, Illustratoren und Concept Artists.
+- **Warum hier:** Führende Open-Source-Lösung für Digital Painting mit herausragender Pinsel-Engine und Grafiktablett-Unterstützung.
+
+### [Pinta](https://www.pinta-project.com/)
+
+- **Zweck:** Schlankes, unkompliziertes Zeichen- und Bildbearbeitungsprogramm für schnelle Anpassungen.
+- **Warum hier:** Schnelle und einfache Alternative zu Pixelmator oder Paint.NET für alltägliche Zuschnitte und einfache Effekte.
+
+### [Converseen](https://converseen.fasterland.net/)
+
+- **Zweck:** Werkzeug zur Stapelverarbeitung, Größenänderung und Konvertierung von Bildern in über 100 Formate.
+- **Warum hier:** Ersetzt macOS-Konverter wie Permute bei Massenoperationen auf Basis von Magick++.
+
+### [darktable](https://www.darktable.org/)
+
+- **Zweck:** Professioneller Open-Source-RAW-Konverter und digitaler Dunkelkammer-Workflow für Fotografen.
+- **Warum hier:** Leistungsfähige, nicht-destruktive Bildbearbeitung als vollwertiger Ersatz für Adobe Lightroom.
+
+### [RawTherapee](https://www.rawtherapee.com/)
+
+- **Zweck:** Leistungsfähiges RAW-Entwicklungs- und Fotobearbeitungsprogramm mit hochentwickelten Demosaicing-Algorithmen.
+- **Warum hier:** Höchste Bildpräzision und Detailkontrolle für anspruchsvolle RAW-Workflows unter Linux.
+
+### [digiKam](https://www.digikam.org/)
+
+- **Zweck:** Umfassende Foto- und Bildverwaltung mit Gesichts- und Objekterkennung, Geotagging und Metadaten-Editor.
+- **Warum hier:** Ausgereifter Ersatz für Apple Fotos zur lokalen Organisation riesiger Fotosammlungen ohne Cloud-Zwang.
+
+### [Inkscape](https://inkscape.org/)
+
+- **Zweck:** Professioneller Vektorgrafik-Editor mit voller Unterstützung des offenen SVG-Standards.
+- **Warum hier:** Der freie Standard für Vektorillustration, Typografie und Diagramme als Alternative zu Adobe Illustrator.
+
+### [Figma](https://www.figma.com/)
+
+- **Zweck:** Kollaboratives, webbasiertes Interface-Design- und Prototyping-Werkzeug für moderne Produktteams.
+- **Warum hier:** Quasistandard für UI/UX-Design, läuft unter Linux nahtlos im Browser oder Desktop-Wrapper als Sketch-Ersatz.
+
+### [Scribus](https://www.scribus.net/)
+
+- **Zweck:** Open-Source-Desktop-Publishing-System für professionellen Satz, Layouts und druckfertige PDF-Erstellung.
+- **Warum hier:** Zuverlässige freie Alternative zu Adobe InDesign mit CMYK-Unterstützung und Farbseparation.
+
+### [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
+
+- **Zweck:** Professionelle Komplettlösung für Videoschnitt, Farbkorrektur, Visual Effects und Audio-Postproduktion.
+- **Warum hier:** Branchenstandard für High-End-Videoproduktion mit nativer Linux-Unterstützung und Studio-Qualität.
+
+### [Kdenlive](https://kdenlive.org/)
+
+- **Zweck:** Flexibler, nicht-linearer Multi-Spur-Videoeditor des KDE-Projekts für ambitionierte Videoschnitte.
+- **Warum hier:** Beliebter Open-Source-Ersatz für Final Cut Pro und Premiere Pro mit breiter Codec-Unterstützung.
+
+### [Audacity](https://www.audacityteam.org/)
+
+- **Zweck:** Bewährter Mehrspur-Audioeditor und -rekorder für schnelle Tonaufnahmen, Schnitte und Filter.
+- **Warum hier:** Universelles Standardwerkzeug für Podcast- und Audioschnitt als Alternative zu Adobe Audition.
+
+### [Ardour](https://ardour.org/)
+
+- **Zweck:** Professionelle Digital Audio Workstation (DAW) für Mehrspuraufnahme, Audio-Mixing und MIDI-Arrangements.
+- **Warum hier:** Das offene Flaggschiff für professionelle Musikproduktion unter Linux als Alternative zu Logic Pro.
+
+### [Easy Effects](https://github.com/wwmm/easyeffects)
+
+- **Zweck:** Systemweiter Audio-Equalizer und Effektprozessor für PipeWire unter Linux.
+- **Warum hier:** Bietet hochentwickelte Klangregelung, Noise-Cancelling und DSP-Effekte analog zu SoundSource unter macOS.
+
+### [ALSA Scarlett GUI](https://github.com/geoffreybennett/alsa-scarlett-gui)
+
+- **Zweck:** Grafische Steuerungsoberfläche für Focusrite Scarlett USB-Audio-Interfaces der 2., 3. und 4. Generation.
+- **Warum hier:** Bringt die vollständige Routing- und Gain-Konfiguration von Focusrite Control nativ auf den Linux-Desktop.
+
 ## Systempflege
 
 ### [koala73/worldmonitor](https://github.com/koala73/worldmonitor)
@@ -357,7 +437,35 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 ## Kommunikation
 
-_Noch keine Empfehlungen._
+### [Beeper](https://www.beeper.com/)
+
+- **Zweck:** Einheitliche Chat-App, die WhatsApp, Telegram, Signal, iMessage und weitere Dienste bündelt.
+- **Warum hier:** Zentraler Multi-Protokoll-Messenger für einen aufgeräumten Kommunikations-Workflow auf dem Desktop.
+
+### [Discord](https://discord.com/)
+
+- **Zweck:** Sprach-, Video- und Textkommunikationsplattform für Communities, Teams und Gaming-Gruppen.
+- **Warum hier:** Identische plattformübergreifende Benutzeroberfläche und Funktionsumfang wie unter macOS und Windows.
+
+### [Zen Browser](https://zen-browser.app/)
+
+- **Zweck:** Moderner, anpassbarer Firefox-basierter Browser mit vertikalen Tabs, Split-Views und hoher Geschwindigkeit.
+- **Warum hier:** Schnelle, datenschutzfreundliche Alternative zu Arc und modernen macOS-Browsern.
+
+### [Google Chrome](https://www.google.com/chrome/)
+
+- **Zweck:** Schneller, weit verbreiteter Webbrowser mit enger Google-Ökosystem- und Webstandard-Integration.
+- **Warum hier:** Hohe Kompatibilität, nahtlose Synchronisation von Lesezeichen und Passwörtern sowie Profilverwaltung.
+
+### [Firefox](https://www.firefox.com/)
+
+- **Zweck:** Unabhängiger, quelloffener Standard-Webbrowser mit starkem Fokus auf Privatsphäre und Anpassbarkeit.
+- **Warum hier:** Das quelloffene Rückgrat des freien Internets und Standard-Browser der meisten Linux-Distributionen.
+
+### [Chromium](https://www.chromium.org/)
+
+- **Zweck:** Vollständig quelloffene Basis des Chrome-Browsers ohne proprietäre Google-Komponenten.
+- **Warum hier:** Reine Open-Source-Engine für Web-Entwickler und Nutzer mit Wunsch nach maximaler Quelltext-Transparenz.
 
 ## Für Lehrkräfte
 
