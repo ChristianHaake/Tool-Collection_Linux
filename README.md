@@ -42,9 +42,152 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Freie Desktop-Office-Suite mit Document-, Spreadsheet-, Presentation- und PDF-Editor sowie Diagram-Viewer; voll offline-fähig und kompatibel mit .docx/.xlsx/.pptx.
 - **Warum hier:** Vollständige Office-Suite ohne Cloud-Zwang, AGPL-lizenziert und nativ für Linux verfügbar – schließt die lokale Office-Lücke in der Sammlung.
 
+### [ONLYOFFICE](https://www.onlyoffice.com/)
+
+- **Zweck:** Leistungsstarke Office-Suite mit hoher nativer Kompatibilität zu Microsoft-Office-Formaten (.docx, .xlsx, .pptx).
+- **Warum hier:** Exzellente Format-Treue und moderne Benutzeroberfläche für kollaboratives und lokales Arbeiten.
+
+### [LibreOffice](https://www.libreoffice.org/)
+
+- **Zweck:** Vollwertige, quelloffene Standard-Office-Suite für Textverarbeitung, Tabellenkalkulation und Präsentationen.
+- **Warum hier:** Das Rückgrat freier Desktop-Produktivität unter Linux mit maximaler Unabhängigkeit und breiter Formatunterstützung.
+
+### [Thunderbird](https://www.thunderbird.net/)
+
+- **Zweck:** Ausgereifter E-Mail-, Kalender-, Adressbuch- und Feed-Client der Mozilla-Familie.
+- **Warum hier:** Plattformübergreifender Standard für E-Mail und Terminverwaltung mit starker Verschlüsselung und Add-on-Ökosystem.
+
+### [Evolution](https://wiki.gnome.org/Apps/Evolution)
+
+- **Zweck:** Vollständige Groupware- und PIM-Anwendung für den GNOME-Desktop mit E-Mail, Kalender und Aufgaben.
+- **Warum hier:** Bietet erstklassige native Exchange- und Microsoft-365-Unterstützung unter Linux als Outlook-Alternative.
+
+### [Kontact](https://kontact.kde.org/)
+
+- **Zweck:** Integrierte PIM-Suite des KDE-Desktops mit KMail, KOrganizer und KAddressBook.
+- **Warum hier:** Enge Desktop-Integration, hohe Anpassbarkeit und Unterstützung komplexer E-Mail- und Kalender-Setups.
+
+### [Nextcloud Calendar](https://nextcloud.com/)
+
+- **Zweck:** CalDAV-basierte Kalenderverwaltung zur Synchronisation von Terminen zwischen Web, Desktop und Mobilgeräten.
+- **Warum hier:** Datenschutzfreundliche, selbst gehostete Alternative zu Apple Kalender und Google Kalender.
+
+### [Nextcloud Contacts](https://nextcloud.com/)
+
+- **Zweck:** CardDAV-Adressbuchverwaltung zur sicheren Pflege und geräteübergreifenden Synchronisation von Kontakten.
+- **Warum hier:** Volle Datenhoheit über Adressdaten ohne Abhängigkeit von proprietären Cloud-Anbietern.
+
+### [Obsidian](https://obsidian.md/)
+
+- **Zweck:** Mächtiges Wissensmanagement- und Notizsystem auf Basis lokaler, verlinkter Markdown-Dateien.
+- **Warum hier:** Identisches Nutzungserlebnis wie unter macOS mit riesigem Plugin-Ökosystem und lokaler Dateikontrolle.
+
+### [CherryTree](https://www.giuspen.net/cherrytree/)
+
+- **Zweck:** Hierarchische Notizanwendung mit Unterstützung für Rich-Text, Syntax-Highlighting und Tabellen.
+- **Warum hier:** Robuste, dateibasierte Alternative zu Evernote oder OneNote für strukturierte Dokumentationen.
+
+### [Apostrophe](https://apps.gnome.org/Apostrophe/)
+
+- **Zweck:** Eleganter, ablenkungsfreier Markdown-Editor für den GNOME-Desktop mit Live-Vorschau und Exportfunktionen.
+- **Warum hier:** Nahtloser Ersatz für iA Writer mit minimalistischer Ästhetik und Pandoc-Unterstützung.
+
+### [Freeplane](https://www.freeplane.org/)
+
+- **Zweck:** Freie Anwendung für Wissensstrukturierung, Mindmapping und visuelle Organisation komplexer Gedanken.
+- **Warum hier:** Ausgereifte und funktionsreiche Open-Source-Alternative zu MindNode und MindManager.
+
+### [Kimai](https://www.kimai.org/)
+
+- **Zweck:** Selbst hostbare, quelloffene Zeiterfassung für Projekte, Aufgaben und Team-Abrechnungen.
+- **Warum hier:** Flexibler, cloudunabhängiger Ersatz für macOS-Zeiterfasser wie Timing oder Tyme.
+
+### [GnuCash](https://www.gnucash.org/)
+
+- **Zweck:** Professionelle Buchhaltungs- und Finanzsoftware mit doppelter Buchführung für private und geschäftliche Finanzen.
+- **Warum hier:** Umfassende Berichte, Kontenführung und Währungsunterstützung ohne laufende Lizenzkosten.
+
+### [Okular](https://okular.kde.org/)
+
+- **Zweck:** Universeller Dokumentenbetrachter für PDF, EPUB, PostScript und mehr mit umfangreichen Annotationswerkzeugen.
+- **Warum hier:** Exzellenter Ersatz für macOS Vorschau mit schneller Anzeige, Formularen und digitalen Signaturen.
+
+### [PDF Studio](https://www.qoppa.com/pdfstudio/)
+
+- **Zweck:** Professioneller, plattformübergreifender PDF-Editor mit vollem Funktionsumfang zur Dokumentbearbeitung.
+- **Warum hier:** Leistungsstarke kommerzielle Alternative zu Adobe Acrobat Pro für anspruchsvolle PDF-Workflows unter Linux.
+
 ## Entwicklung
 
+### [VS Code](https://code.visualstudio.com/)
 
+- **Zweck:** Universelle, quelloffene Entwicklungsumgebung mit integriertem Terminal, Debugging und Git-Unterstützung.
+- **Warum hier:** Der dominierende Standard für plattformübergreifende Softwareentwicklung mit unzähligen Erweiterungen.
+
+### [VSCodium](https://vscodium.com/)
+
+- **Zweck:** Vollständig freier, telemetriefreier Community-Build von VS Code unter MIT-Lizenz.
+- **Warum hier:** Bietet die volle Entwicklungs-Erfahrung von VS Code ohne Microsoft-Tracking und proprietäre Lizenzen.
+
+### [Sublime Text](https://www.sublimetext.com/)
+
+- **Zweck:** Extrem schneller, ressourcenschonender Text- und Code-Editor mit Multi-Cursor- und Paketverwaltung.
+- **Warum hier:** Startet verzögerungsfrei, bewältigt riesige Dateien problemlos und bietet vertraute Tastenkürzel.
+
+### [Vim](https://www.vim.org/)
+
+- **Zweck:** Hochgradig konfigurierbarer, modaler Texteditor für die effiziente Bearbeitung im Terminal und GUI.
+- **Warum hier:** Auf nahezu jedem Linux-System vorinstalliert, extrem schnell und der Standard für tastaturgesteuertes Arbeiten.
+
+### [Ghostty](https://ghostty.org/)
+
+- **Zweck:** Moderner, schneller und GPU-beschleunigter Terminalemulator mit nativer UI-Integration.
+- **Warum hier:** Bietet das gleiche flüssige Terminal-Erlebnis wie unter macOS mit nativer Wayland- und GTK-Unterstützung.
+
+### [chezmoi](https://www.chezmoi.io/)
+
+- **Zweck:** Leistungsstarke Verwaltung und Synchronisation von Konfigurationsdateien (Dotfiles) über Git.
+- **Warum hier:** Unterstützt Vorlagen, geheime Variablen und gerätespezifische Profile für konsistente System-Konfigurationen.
+
+### [GitKraken](https://www.gitkraken.com/)
+
+- **Zweck:** Visueller Git-Client mit interaktivem Commit-Graphen, Konfliktlöser und Arbeitsbereich-Übersicht.
+- **Warum hier:** Komfortabler Ersatz für Tower oder Fork mit intuitiver Bedienung komplexer Git-Strukturen.
+
+### [Sublime Merge](https://www.sublimemerge.com/)
+
+- **Zweck:** Blitzschneller, reaktionsschneller Git-Client der Macher von Sublime Text mit präziser Diff-Engine.
+- **Warum hier:** Einer der performantesten grafischen Git-Clients für Linux mit hervorragender Tastatursteuerung.
+
+### [SmartGit](https://www.syntevo.com/smartgit/)
+
+- **Zweck:** Professioneller Git-Client mit starkem Fokus auf Nachvollziehbarkeit, Rebase-Workflows und Merge-Unterstützung.
+- **Warum hier:** Ausgereifte Desktop-Lösung für Entwickler, die klare Branch-Hierarchien und integriertes File-Compare schätzen.
+
+### [Meld](https://meldmerge.org/)
+
+- **Zweck:** Grafisches Vergleichs- und Merge-Werkzeug für zwei- und dreiseitige Datei- und Verzeichnisabgleiche.
+- **Warum hier:** Der klassische Linux-Standard für Diffs und Versionsabgleiche als Ersatz für FileMerge und Kaleidoscope.
+
+### [KDiff3](https://apps.kde.org/kdiff3/)
+
+- **Zweck:** Mächtiges 3-Wege-Vergleichs- und Zusammenführungswerkzeug mit automatischer Konfliktauflösung.
+- **Warum hier:** Unverzichtbar bei komplexen Git-Merge-Konflikten und tiefen Ordnerstruktur-Vergleichen.
+
+### [Beyond Compare](https://www.scootersoftware.com/)
+
+- **Zweck:** Umfassendes professionelles Vergleichswerkzeug für Dateien, Ordner, Archive und FTP-Server.
+- **Warum hier:** Branchenführende Diff- und Sync-Präzision mit identischer Benutzeroberfläche unter macOS und Linux.
+
+### [DBeaver](https://dbeaver.io/)
+
+- **Zweck:** Universelles Datenbankverwaltungswerkzeug für relationale und NoSQL-Datenbanken.
+- **Warum hier:** Quelloffener Ersatz für Sequel Pro, TablePlus oder Querious mit Unterstützung von über 100 Treibern.
+
+### [OpenCode](https://opencode.ai/)
+
+- **Zweck:** KI-gestützter Open-Source-Terminal-Coding-Agent für automatisierte Code-Entwicklung und Refactoring.
+- **Warum hier:** Leistungsfähige Entwicklungsunterstützung direkt auf der Kommandozeile mit Modell-Flexibilität.
 
 ## Sicherheit
 
