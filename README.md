@@ -206,6 +206,11 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Unix-konforme, terminalbasierte Passwortverwaltung mit GPG-Verschlüsselung und optionaler Git-Versionskontrolle.
 - **Warum hier:** Extrem schlank, skriptbar und sicher nach der Unix-Philosophie für Entwickler und Terminal-Nutzer.
 
+### [Flatseal](https://github.com/tchx84/Flatseal)
+
+- **Zweck:** Grafischer Berechtigungs- und Sicherheitsmanager zur feingliedrigen Konfiguration von Flatpak-Anwendungen.
+- **Warum hier:** Ermöglicht die einfache Kontrolle und Einschränkung von Dateisystem-, Netzwerk- und Geräteberechtigungen ohne kryptische Terminal-Befehle.
+
 ## Medien
 
 ### [Flameshot](https://haak3.de/tools-apps/)
@@ -302,6 +307,21 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 - **Zweck:** Multiroom-Audio-Streaming unter Linux an HomePods, Apple TVs und Raspberry-Pi-Lautsprecher mit individueller Raum-Lautstärkeregelung und Web-UI.
 - **Warum hier:** Schließt die Lücke von Rogue Amoeba Airfoil unter Linux; kombiniert PipeWire (AirPlay 1) und OwnTone (AirPlay 2 inkl. FairPlay) mit automatischer/manueller Laufzeit-Kompensation.
+
+### [Parabolic](https://github.com/NickvisionApps/Parabolic)
+
+- **Zweck:** Modernes, grafisches Frontend für yt-dlp zum Herunterladen von Videos und Audiospuren von Web-Plattformen.
+- **Warum hier:** Bietet eine intuitive GNOME/GTK4-Oberfläche mit nativer Format-, Codec- und Untertitelauswahl ohne Terminal-Hürde.
+
+### [Upscayl](https://github.com/upscayl/upscayl)
+
+- **Zweck:** Plattformunabhängiges Werkzeug zur KI-gestützten Hochskalierung und Schärfung von Bildern und Grafiken.
+- **Warum hier:** Führt fortschrittliche Deep-Learning-Upscaler lokal über Vulkan/NCNN aus, ohne Cloud-Upload oder Abonnementkosten.
+
+### [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/)
+
+- **Zweck:** Extrem performantes Bildschirm- und Gameplay-Aufnahmewerkzeug mit minimalem System-Overhead.
+- **Warum hier:** Nutzt hardwarebeschleunigtes Direct-Encoding (NVENC/VAAPI/AMF) und bietet ShadowPlay-ähnliche Replay-Puffer nativ unter Wayland und X11.
 
 ## Systempflege
 
@@ -450,6 +470,11 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Schlanke, hochgradig anpassbare Wayland-Desktop-Shell mit integrierten Leisten, Widgets, Dock, Launcher, OSDs und Lockscreen.
 - **Warum hier:** Ersetzt das fragile Zusammenflicken einzelner Komponenten (Waybar, Rofi, Dunst etc.) durch eine native C++/OpenGL-ES-Lösung ohne GTK/Qt-Overhead.
 
+### [LACT](https://github.com/ilya-zlobintsev/LACT)
+
+- **Zweck:** Umfassende Kontroll- und Übertaktungsoberfläche für AMD-, Intel- und Nvidia-Grafikkarten unter Linux.
+- **Warum hier:** Fungiert als modernes Linux-Pendant zu MSI Afterburner mit GPU-Monitoring, Lüfterkurvensteuerung und Power-Limit-Anpassung.
+
 ## Kommunikation
 
 ### [Beeper](https://www.beeper.com/)
@@ -481,6 +506,11 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 - **Zweck:** Vollständig quelloffene Basis des Chrome-Browsers ohne proprietäre Google-Komponenten.
 - **Warum hier:** Reine Open-Source-Engine für Web-Entwickler und Nutzer mit Wunsch nach maximaler Quelltext-Transparenz.
+
+### [Vesktop](https://github.com/Vencord/Vesktop)
+
+- **Zweck:** Benutzerdefinierter Discord-Desktop-Client mit integriertem Vencord-Framework und Leistungsoptimierungen.
+- **Warum hier:** Behebt die chronischen Linux-Probleme des offiziellen Discord-Clients und bietet funktionierendes Wayland-Screensharing inklusive Audio-Stream.
 
 ## Für Lehrkräfte
 
