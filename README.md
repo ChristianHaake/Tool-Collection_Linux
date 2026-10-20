@@ -475,6 +475,11 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Umfassende Kontroll- und Übertaktungsoberfläche für AMD-, Intel- und Nvidia-Grafikkarten unter Linux.
 - **Warum hier:** Fungiert als modernes Linux-Pendant zu MSI Afterburner mit GPU-Monitoring, Lüfterkurvensteuerung und Power-Limit-Anpassung.
 
+### [Shelly](https://github.com/Seafoam-Labs/Shelly-ALPM)
+
+- **Zweck:** Moderner Paketmanager für Arch Linux mit CLI-, TUI- und GTK-Oberfläche auf Basis von libalpm und Flatpak-Unterstützung.
+- **Warum hier:** Bietet eine benutzerfreundliche, performante Alternative zu Pamac und Octopi mit nativer System- und Flatpak-Verwaltung.
+
 ## Kommunikation
 
 ### [Beeper](https://www.beeper.com/)
