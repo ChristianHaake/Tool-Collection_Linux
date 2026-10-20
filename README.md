@@ -298,6 +298,11 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Grafische Steuerungsoberfläche für Focusrite Scarlett USB-Audio-Interfaces der 2., 3. und 4. Generation.
 - **Warum hier:** Bringt die vollständige Routing- und Gain-Konfiguration von Focusrite Control nativ auf den Linux-Desktop.
 
+### [AirPlay Hub](https://github.com/napthemax/airplay-hub)
+
+- **Zweck:** Multiroom-Audio-Streaming unter Linux an HomePods, Apple TVs und Raspberry-Pi-Lautsprecher mit individueller Raum-Lautstärkeregelung und Web-UI.
+- **Warum hier:** Schließt die Lücke von Rogue Amoeba Airfoil unter Linux; kombiniert PipeWire (AirPlay 1) und OwnTone (AirPlay 2 inkl. FairPlay) mit automatischer/manueller Laufzeit-Kompensation.
+
 ## Systempflege
 
 ### [koala73/worldmonitor](https://github.com/koala73/worldmonitor)
@@ -434,6 +439,16 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 - **Zweck:** Einfache, grafische Virtualisierungslösung zur schnellen Einrichtung und Nutzung virtueller Linux- und Windows-Maschinen.
 - **Warum hier:** Schlanke Alternative zu UTM oder VirtualBox mit unkompliziertem ISO-Download und QEMU/KVM-Unterbau.
+
+### [Polonium](https://github.com/zeroxoneafour/polonium)
+
+- **Zweck:** Automatischer Tiling-Fenstermanager als KWin-Skript für KDE Plasma 6 unter Wayland.
+- **Warum hier:** Geistiger Nachfolger von Bismuth, der dynamisches Fenster-Tiling nahtlos in die vertraute KDE-Plasma-Oberfläche integriert.
+
+### [Noctalia](https://github.com/noctalia-dev/noctalia)
+
+- **Zweck:** Schlanke, hochgradig anpassbare Wayland-Desktop-Shell mit integrierten Leisten, Widgets, Dock, Launcher, OSDs und Lockscreen.
+- **Warum hier:** Ersetzt das fragile Zusammenflicken einzelner Komponenten (Waybar, Rofi, Dunst etc.) durch eine native C++/OpenGL-ES-Lösung ohne GTK/Qt-Overhead.
 
 ## Kommunikation
 
