@@ -323,6 +323,11 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Extrem performantes Bildschirm- und Gameplay-Aufnahmewerkzeug mit minimalem System-Overhead.
 - **Warum hier:** Nutzt hardwarebeschleunigtes Direct-Encoding (NVENC/VAAPI/AMF) und bietet ShadowPlay-ähnliche Replay-Puffer nativ unter Wayland und X11.
 
+### [Voicebox](https://github.com/jamiepine/voicebox)
+
+- **Zweck:** Lokales KI-Sprachstudio für Stimmen-Klonen, Sprachsynthese, systemweites Diktieren und Audio-Interaktion mit KI-Agenten.
+- **Warum hier:** Bietet eine quelloffene, datenschutzfreundliche Alternative zu ElevenLabs, die hardwarebeschleunigt vollständig lokal auf macOS und Linux läuft.
+
 ## Systempflege
 
 ### [koala73/worldmonitor](https://github.com/koala73/worldmonitor)
