@@ -6,15 +6,17 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 ## Kategorien
 
-- [Produktivität](#produktivität) – Aufgaben, Notizen, Zeit, Dateien und Zusammenarbeit
-- [Entwicklung](#entwicklung) – Programmierung, Infrastruktur und technische Werkzeuge
-- [Sicherheit](#sicherheit) – Schutz, Analyse und sichere Arbeitsweisen
-- [Medien](#medien) – Bild, Audio, Video und kreative Arbeit
-- [Systempflege](#systempflege) – Installation, Wartung, Diagnose und Backups
-- [Kommunikation](#kommunikation) – Nachrichten, Meetings und Austausch
+- [Büro & Produktivität](#büro--produktivität) – Office, Notizen, Zeit, Finanzen und Zusammenarbeit
+- [Entwicklung](#entwicklung) – Programmierung, Editoren, Terminal und technische Werkzeuge
+- [Dateien & Synchronisation](#dateien--synchronisation) – Dateimanager, lokaler Transfer und Cloud/P2P-Sync
+- [Internet & Kommunikation](#internet--kommunikation) – Browser, E-Mail, Chat und PIM
+- [Medien & Kreation](#medien--kreation) – Bild, Audio, Video, Screen Capture und DTP
+- [Sicherheit & Privatsphäre](#sicherheit--privatsphäre) – Passwortmanager, Sandboxing und Mesh-VPN
+- [Backup & Wiederherstellung](#backup--wiederherstellung) – Snapshots, inkrementelle Sicherung und Klonen
+- [System & Desktop](#system--desktop) – Anwendungsstarter, Window-Management, Hardware und Virtualisierung
 - [Für Lehrkräfte](#für-lehrkräfte) – Unterricht, Rückmeldung, Planung und Schulalltag
 
-## Produktivität
+## Büro & Produktivität
 
 ### [humanizer](https://github.com/blader/humanizer)
 
@@ -30,7 +32,6 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 - **Zweck:** A meeting note-taker that talks back..
 - **Warum hier:** Es ist plattformuebergreifend nutzbar, unter einer freizuegigen Open-Source-Lizenz, mit aktiver Community.
-
 
 ### [RevPDF](https://haak3.de/tools-apps/)
 
@@ -51,31 +52,6 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 - **Zweck:** Vollwertige, quelloffene Standard-Office-Suite für Textverarbeitung, Tabellenkalkulation und Präsentationen.
 - **Warum hier:** Das Rückgrat freier Desktop-Produktivität unter Linux mit maximaler Unabhängigkeit und breiter Formatunterstützung.
-
-### [Thunderbird](https://www.thunderbird.net/)
-
-- **Zweck:** Ausgereifter E-Mail-, Kalender-, Adressbuch- und Feed-Client der Mozilla-Familie.
-- **Warum hier:** Plattformübergreifender Standard für E-Mail und Terminverwaltung mit starker Verschlüsselung und Add-on-Ökosystem.
-
-### [Evolution](https://wiki.gnome.org/Apps/Evolution)
-
-- **Zweck:** Vollständige Groupware- und PIM-Anwendung für den GNOME-Desktop mit E-Mail, Kalender und Aufgaben.
-- **Warum hier:** Bietet erstklassige native Exchange- und Microsoft-365-Unterstützung unter Linux als Outlook-Alternative.
-
-### [Kontact](https://kontact.kde.org/)
-
-- **Zweck:** Integrierte PIM-Suite des KDE-Desktops mit KMail, KOrganizer und KAddressBook.
-- **Warum hier:** Enge Desktop-Integration, hohe Anpassbarkeit und Unterstützung komplexer E-Mail- und Kalender-Setups.
-
-### [Nextcloud Calendar](https://nextcloud.com/)
-
-- **Zweck:** CalDAV-basierte Kalenderverwaltung zur Synchronisation von Terminen zwischen Web, Desktop und Mobilgeräten.
-- **Warum hier:** Datenschutzfreundliche, selbst gehostete Alternative zu Apple Kalender und Google Kalender.
-
-### [Nextcloud Contacts](https://nextcloud.com/)
-
-- **Zweck:** CardDAV-Adressbuchverwaltung zur sicheren Pflege und geräteübergreifenden Synchronisation von Kontakten.
-- **Warum hier:** Volle Datenhoheit über Adressdaten ohne Abhängigkeit von proprietären Cloud-Anbietern.
 
 ### [Obsidian](https://obsidian.md/)
 
@@ -189,39 +165,141 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** KI-gestützter Open-Source-Terminal-Coding-Agent für automatisierte Code-Entwicklung und Refactoring.
 - **Warum hier:** Leistungsfähige Entwicklungsunterstützung direkt auf der Kommandozeile mit Modell-Flexibilität.
 
-## Sicherheit
+### [Kate](https://kate-editor.org/)
 
-### [1Password](https://1password.com/)
+- **Zweck:** Leistungsfähiger Text- und Programm-Editor mit Syntax-Highlighting, Multi-Dokument-Tabs und Terminal-Einbindung.
+- **Warum hier:** Deutlich mächtiger als einfache Standard-Editoren und sofort einsatzbereit für Text- und Konfigurationsarbeiten.
 
-- **Zweck:** Plattformübergreifender Passwortmanager zur sicheren Speicherung und Synchronisation von Zugangsdaten, Passkeys und sensiblen Dokumenten.
-- **Warum hier:** Führende kommerzielle Lösung mit nativer Linux-App und Browser-Integration für nahtlosen Wechsel von macOS.
+## Dateien & Synchronisation
 
-### [KeePassXC](https://keepassxc.org/)
+### [Dolphin](https://apps.kde.org/dolphin/)
 
-- **Zweck:** Lokaler, quelloffener Passwortmanager mit nativer Desktop-Integration und Browser-Anbindung ohne Cloud-Zwang.
-- **Warum hier:** Vollständig offline nutzbar mit verschlüsselter `.kdbx`-Datenbank; ideale quelloffene Alternative zu 1Password und Bitwarden.
+- **Zweck:** Mächtiger, modularer Dateimanager mit Tabs, geteilter Ansicht, Terminal-Integration und Netzwerkzugriff.
+- **Warum hier:** Einer der funktionsreichsten grafischen Dateimanager für Linux und flexibler Ersatz für den macOS Finder.
 
-### [pass](https://www.passwordstore.org/)
+### [Double Commander](https://doublecmd.sourceforge.io/)
 
-- **Zweck:** Unix-konforme, terminalbasierte Passwortverwaltung mit GPG-Verschlüsselung und optionaler Git-Versionskontrolle.
-- **Warum hier:** Extrem schlank, skriptbar und sicher nach der Unix-Philosophie für Entwickler und Terminal-Nutzer.
+- **Zweck:** Plattformübergreifender Zwei-Fenster-Dateimanager nach dem Vorbild des Total Commander.
+- **Warum hier:** Funktionsstarker Ersatz für ForkLift oder Path Finder mit integriertem Betrachter, Packern und Archivsuche.
 
-### [Flatseal](https://github.com/tchx84/Flatseal)
+### [Krusader](https://apps.kde.org/krusader/)
 
-- **Zweck:** Grafischer Berechtigungs- und Sicherheitsmanager zur feingliedrigen Konfiguration von Flatpak-Anwendungen.
-- **Warum hier:** Ermöglicht die einfache Kontrolle und Einschränkung von Dateisystem-, Netzwerk- und Geräteberechtigungen ohne kryptische Terminal-Befehle.
+- **Zweck:** Fortgeschrittener Twin-Panel-Dateimanager für den KDE-Desktop mit umfangreicher Protokoll- und Archivunterstützung.
+- **Warum hier:** Ideal für Power-User, die geteilte Verzeichnisansichten, Synchronisationstools und FTP/SFTP-Zugriff benötigen.
 
-## Medien
+### [Midnight Commander](https://midnight-commander.org/)
+
+- **Zweck:** Klassischer, zweispaltiger Terminal-Dateimanager (Ncurses) für Dateiverwaltung und schnelle Navigation.
+- **Warum hier:** Standardwerkzeug auf Servern und Desktops für schnelle Dateioperationen und Dateibetrachtung ohne GUI.
+
+### [nnn](https://github.com/jarun/nnn)
+
+- **Zweck:** Extrem schneller, ressourcenschonender Terminal-Dateimanager mit Plugin-Architektur.
+- **Warum hier:** Blitzschnelle Dateinavigation mit minimalem Speicherverbrauch und flexibler Erweiterbarkeit.
+
+### [LF](https://github.com/gokcehan/lf)
+
+- **Zweck:** Terminal-Dateimanager inspiriert von Ranger, geschrieben in Go mit Fokus auf Geschwindigkeit und Einfachheit.
+- **Warum hier:** Unterstützt Vim-artige Tastennavigation, anpassbare Datei-Vorschauen und hohe Ausführungsgeschwindigkeit.
+
+### [LocalSend](https://localsend.org/)
+
+- **Zweck:** Plattformübergreifender, quelloffener Dateiaustausch im lokalen Netzwerk ohne Internetanbindung.
+- **Warum hier:** Zuverlässiger, privatsphärefreundlicher AirDrop-Ersatz zwischen Linux, macOS, Windows, iOS und Android.
+
+### [FileZilla](https://filezilla-project.org/)
+
+- **Zweck:** Weit verbreiteter grafischer FTP-, FTPS- und SFTP-Client zur Dateiübertragung.
+- **Warum hier:** Bewährter Standard-Client mit Server-Manager, Warteschlangen und Verzeichnisvergleich als Transmit-Pendant.
+
+### [Syncthing](https://syncthing.net/)
+
+- **Zweck:** Kontinuierliche, dezentrale Peer-to-Peer-Dateisynchronisation zwischen Geräten mit Ende-zu-Ende-Verschlüsselung.
+- **Warum hier:** Unabhängig von zentralen Cloud-Servern mit Web-UI und voller Kontrolle über eigene Verzeichnisse.
+
+## Internet & Kommunikation
+
+### [Zen Browser](https://zen-browser.app/)
+
+- **Zweck:** Moderner, anpassbarer Firefox-basierter Browser mit vertikalen Tabs, Split-Views und hoher Geschwindigkeit.
+- **Warum hier:** Schnelle, datenschutzfreundliche Alternative zu Arc und modernen macOS-Browsern.
+
+### [Google Chrome](https://www.google.com/chrome/)
+
+- **Zweck:** Schneller, weit verbreiteter Webbrowser mit enger Google-Ökosystem- und Webstandard-Integration.
+- **Warum hier:** Hohe Kompatibilität, nahtlose Synchronisation von Lesezeichen und Passwörtern sowie Profilverwaltung.
+
+### [Firefox](https://www.firefox.com/)
+
+- **Zweck:** Unabhängiger, quelloffener Standard-Webbrowser mit starkem Fokus auf Privatsphäre und Anpassbarkeit.
+- **Warum hier:** Das quelloffene Rückgrat des freien Internets und Standard-Browser der meisten Linux-Distributionen.
+
+### [Chromium](https://www.chromium.org/)
+
+- **Zweck:** Vollständig quelloffene Basis des Chrome-Browsers ohne proprietäre Google-Komponenten.
+- **Warum hier:** Reine Open-Source-Engine für Web-Entwickler und Nutzer mit Wunsch nach maximaler Quelltext-Transparenz.
+
+### [Thunderbird](https://www.thunderbird.net/)
+
+- **Zweck:** Ausgereifter E-Mail-, Kalender-, Adressbuch- und Feed-Client der Mozilla-Familie.
+- **Warum hier:** Plattformübergreifender Standard für E-Mail und Terminverwaltung mit starker Verschlüsselung und Add-on-Ökosystem.
+
+### [Evolution](https://wiki.gnome.org/Apps/Evolution)
+
+- **Zweck:** Vollständige Groupware- und PIM-Anwendung für den GNOME-Desktop mit E-Mail, Kalender und Aufgaben.
+- **Warum hier:** Bietet erstklassige native Exchange- und Microsoft-365-Unterstützung unter Linux als Outlook-Alternative.
+
+### [Kontact](https://kontact.kde.org/)
+
+- **Zweck:** Integrierte PIM-Suite des KDE-Desktops mit KMail, KOrganizer und KAddressBook.
+- **Warum hier:** Enge Desktop-Integration, hohe Anpassbarkeit und Unterstützung komplexer E-Mail- und Kalender-Setups.
+
+### [Nextcloud Calendar](https://nextcloud.com/)
+
+- **Zweck:** CalDAV-basierte Kalenderverwaltung zur Synchronisation von Terminen zwischen Web, Desktop und Mobilgeräten.
+- **Warum hier:** Datenschutzfreundliche, selbst gehostete Alternative zu Apple Kalender und Google Kalender.
+
+### [Nextcloud Contacts](https://nextcloud.com/)
+
+- **Zweck:** CardDAV-Adressbuchverwaltung zur sicheren Pflege und geräteübergreifenden Synchronisation von Kontakten.
+- **Warum hier:** Volle Datenhoheit über Adressdaten ohne Abhängigkeit von proprietären Cloud-Anbietern.
+
+### [Beeper](https://www.beeper.com/)
+
+- **Zweck:** Einheitliche Chat-App, die WhatsApp, Telegram, Signal, iMessage und weitere Dienste bündelt.
+- **Warum hier:** Zentraler Multi-Protokoll-Messenger für einen aufgeräumten Kommunikations-Workflow auf dem Desktop.
+
+### [Discord](https://discord.com/)
+
+- **Zweck:** Sprach-, Video- und Textkommunikationsplattform für Communities, Teams und Gaming-Gruppen.
+- **Warum hier:** Identische plattformübergreifende Benutzeroberfläche und Funktionsumfang wie unter macOS und Windows.
+
+### [Vesktop](https://github.com/Vencord/Vesktop)
+
+- **Zweck:** Benutzerdefinierter Discord-Desktop-Client mit integriertem Vencord-Framework und Leistungsoptimierungen.
+- **Warum hier:** Behebt die chronischen Linux-Probleme des offiziellen Discord-Clients und bietet funktionierendes Wayland-Screensharing inklusive Audio-Stream.
+
+## Medien & Kreation
 
 ### [Flameshot](https://haak3.de/tools-apps/)
 
 - **Zweck:** Open-Source-Werkzeug für Bildschirmfotos und die direkte Annotation von Bildausschnitten.
 - **Warum hier:** Es verbindet präzise Aufnahme und Bearbeitung ohne unnötigen Umweg über externe Dienste.
 
+### [Spectacle](https://apps.kde.org/spectacle/)
+
+- **Zweck:** Leistungsstarkes Screenshot- und Bildschirmaufnahme-Werkzeug des KDE-Ökosystems.
+- **Warum hier:** Bietet präzise Bereichsauswahl, Annotationen und Bildschirminhalt-Erfassung direkt auf Desktop-Ebene.
+
 ### [noScribe](https://haak3.de/tools-apps/)
 
 - **Zweck:** Plattformübergreifende Open-Source-Anwendung für die lokale, KI-gestützte Transkription von Audio- und Videodateien.
 - **Warum hier:** Die Offline-Verarbeitung eignet sich besonders für sensible Gesprächs- und Forschungsdaten.
+
+### [Voicebox](https://github.com/jamiepine/voicebox)
+
+- **Zweck:** Lokales KI-Sprachstudio für Stimmen-Klonen, Sprachsynthese, systemweites Diktieren und Audio-Interaktion mit KI-Agenten.
+- **Warum hier:** Bietet eine quelloffene, datenschutzfreundliche Alternative zu ElevenLabs, die hardwarebeschleunigt vollständig lokal auf macOS und Linux läuft.
 
 ### [GIMP](https://www.gimp.org/)
 
@@ -323,107 +401,34 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Extrem performantes Bildschirm- und Gameplay-Aufnahmewerkzeug mit minimalem System-Overhead.
 - **Warum hier:** Nutzt hardwarebeschleunigtes Direct-Encoding (NVENC/VAAPI/AMF) und bietet ShadowPlay-ähnliche Replay-Puffer nativ unter Wayland und X11.
 
-### [Voicebox](https://github.com/jamiepine/voicebox)
+## Sicherheit & Privatsphäre
 
-- **Zweck:** Lokales KI-Sprachstudio für Stimmen-Klonen, Sprachsynthese, systemweites Diktieren und Audio-Interaktion mit KI-Agenten.
-- **Warum hier:** Bietet eine quelloffene, datenschutzfreundliche Alternative zu ElevenLabs, die hardwarebeschleunigt vollständig lokal auf macOS und Linux läuft.
+### [1Password](https://1password.com/)
 
-## Systempflege
+- **Zweck:** Plattformübergreifender Passwortmanager zur sicheren Speicherung und Synchronisation von Zugangsdaten, Passkeys und sensiblen Dokumenten.
+- **Warum hier:** Führende kommerzielle Lösung mit nativer Linux-App und Browser-Integration für nahtlosen Wechsel von macOS.
 
-### [koala73/worldmonitor](https://github.com/koala73/worldmonitor)
+### [KeePassXC](https://keepassxc.org/)
 
-- **Zweck:** Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
-- **Warum hier:** Es ist plattformuebergreifend nutzbar, unter AGPL-3.0-Lizenz, mit grosser aktiver Community.
+- **Zweck:** Lokaler, quelloffener Passwortmanager mit nativer Desktop-Integration und Browser-Anbindung ohne Cloud-Zwang.
+- **Warum hier:** Vollständig offline nutzbar mit verschlüsselter `.kdbx`-Datenbank; ideale quelloffene Alternative zu 1Password und Bitwarden.
 
-### [Vicinae](https://www.vicinae.com/)
+### [pass](https://www.passwordstore.org/)
 
-- **Zweck:** Moderner, modularer Launcher und Workflow-Manager für Linux als direktes Pendant zu Raycast.
-- **Warum hier:** Ermöglicht erweiterbare Tastatur-Workflows, Skripte und Schnellsuche mit nativer Wayland- und X11-Unterstützung.
+- **Zweck:** Unix-konforme, terminalbasierte Passwortverwaltung mit GPG-Verschlüsselung und optionaler Git-Versionskontrolle.
+- **Warum hier:** Extrem schlank, skriptbar und sicher nach der Unix-Philosophie für Entwickler und Terminal-Nutzer.
 
-### [Ulauncher](https://ulauncher.io/)
+### [Flatseal](https://github.com/tchx84/Flatseal)
 
-- **Zweck:** Schlanker und extrem erweiterbarer Anwendungs-Launcher für Linux-Desktops.
-- **Warum hier:** Bewährte Alfred- und Spotlight-Alternative mit einer großen Auswahl an Community-Erweiterungen.
-
-### [Rofi](https://github.com/davatorium/rofi)
-
-- **Zweck:** Hochgradig anpassbarer, tastaturgesteuerter Anwendungsstarter, Fenstermanager und Dmenu-Ersatz.
-- **Warum hier:** Standardwerkzeug für Tiling-Window-Manager und Minimal-Setups mit umfassender Theme-Unterstützung.
-
-### [Input Remapper](https://github.com/sezanzeb/input-remapper)
-
-- **Zweck:** Grafisches Werkzeug zur flexiblen Neubelegung von Tastatur-, Maus- und Gamepad-Tasten unter Linux.
-- **Warum hier:** Zuverlässige Linux-Alternative zu Karabiner-Elements, funktioniert desktopweit auch unter Wayland.
-
-### [Solaar](https://pwr-solaar.github.io/Solaar/)
-
-- **Zweck:** Konfigurations- und Gerätemanager für Logitech-Mäuse, -Tastaturen und Unifying-/Bolt-Empfänger.
-- **Warum hier:** Ersetzt Logitech Options+ unter Linux vollständig inklusive Akkuanzeige und Gestenkonfiguration.
-
-### [Spectacle](https://apps.kde.org/spectacle/)
-
-- **Zweck:** Leistungsstarkes Screenshot- und Bildschirmaufnahme-Werkzeug des KDE-Ökosystems.
-- **Warum hier:** Bietet präzise Bereichsauswahl, Annotationen und Bildschirminhalt-Erfassung direkt auf Desktop-Ebene.
-
-### [Dolphin](https://apps.kde.org/dolphin/)
-
-- **Zweck:** Mächtiger, modularer Dateimanager mit Tabs, geteilter Ansicht, Terminal-Integration und Netzwerkzugriff.
-- **Warum hier:** Einer der funktionsreichsten grafischen Dateimanager für Linux und flexibler Ersatz für den macOS Finder.
-
-### [Double Commander](https://doublecmd.sourceforge.io/)
-
-- **Zweck:** Plattformübergreifender Zwei-Fenster-Dateimanager nach dem Vorbild des Total Commander.
-- **Warum hier:** Funktionsstarker Ersatz für ForkLift oder Path Finder mit integriertem Betrachter, Packern und Archivsuche.
-
-### [Krusader](https://apps.kde.org/krusader/)
-
-- **Zweck:** Fortgeschrittener Twin-Panel-Dateimanager für den KDE-Desktop mit umfangreicher Protokoll- und Archivunterstützung.
-- **Warum hier:** Ideal für Power-User, die geteilte Verzeichnisansichten, Synchronisationstools und FTP/SFTP-Zugriff benötigen.
-
-### [Midnight Commander](https://midnight-commander.org/)
-
-- **Zweck:** Klassischer, zweispaltiger Terminal-Dateimanager (Ncurses) für Dateiverwaltung und schnelle Navigation.
-- **Warum hier:** Standardwerkzeug auf Servern und Desktops für schnelle Dateioperationen und Dateibetrachtung ohne GUI.
-
-### [nnn](https://github.com/jarun/nnn)
-
-- **Zweck:** Extrem schneller, ressourcenschonender Terminal-Dateimanager mit Plugin-Architektur.
-- **Warum hier:** Blitzschnelle Dateinavigation mit minimalem Speicherverbrauch und flexibler Erweiterbarkeit.
-
-### [LF](https://github.com/gokcehan/lf)
-
-- **Zweck:** Terminal-Dateimanager inspiriert von Ranger, geschrieben in Go mit Fokus auf Geschwindigkeit und Einfachheit.
-- **Warum hier:** Unterstützt Vim-artige Tastennavigation, anpassbare Datei-Vorschauen und hohe Ausführungsgeschwindigkeit.
-
-### [Bazaar](https://github.com/kolunmi/bazaar)
-
-- **Zweck:** Moderner, kuratierter Software-Katalog und Store für Flatpak-Anwendungen unter Linux.
-- **Warum hier:** Bietet eine ansprechende grafische Übersicht zur Entdeckung von Desktop-Programmen ähnlich dem Mac App Store.
-
-### [Kate](https://kate-editor.org/)
-
-- **Zweck:** Leistungsfähiger Text- und Programm-Editor mit Syntax-Highlighting, Multi-Dokument-Tabs und Terminal-Einbindung.
-- **Warum hier:** Deutlich mächtiger als einfache Standard-Editoren und sofort einsatzbereit für Text- und Konfigurationsarbeiten.
-
-### [LocalSend](https://localsend.org/)
-
-- **Zweck:** Plattformübergreifender, quelloffener Dateiaustausch im lokalen Netzwerk ohne Internetanbindung.
-- **Warum hier:** Zuverlässiger, privatsphärefreundlicher AirDrop-Ersatz zwischen Linux, macOS, Windows, iOS und Android.
-
-### [FileZilla](https://filezilla-project.org/)
-
-- **Zweck:** Weit verbreiteter grafischer FTP-, FTPS- und SFTP-Client zur Dateiübertragung.
-- **Warum hier:** Bewährter Standard-Client mit Server-Manager, Warteschlangen und Verzeichnisvergleich als Transmit-Pendant.
-
-### [Syncthing](https://syncthing.net/)
-
-- **Zweck:** Kontinuierliche, dezentrale Peer-to-Peer-Dateisynchronisation zwischen Geräten mit Ende-zu-Ende-Verschlüsselung.
-- **Warum hier:** Unabhängig von zentralen Cloud-Servern mit Web-UI und voller Kontrolle über eigene Verzeichnisse.
+- **Zweck:** Grafischer Berechtigungs- und Sicherheitsmanager zur feingliedrigen Konfiguration von Flatpak-Anwendungen.
+- **Warum hier:** Ermöglicht die einfache Kontrolle und Einschränkung von Dateisystem-, Netzwerk- und Geräteberechtigungen ohne kryptische Terminal-Befehle.
 
 ### [Tailscale](https://tailscale.com/)
 
 - **Zweck:** Zero-Config Mesh-VPN auf WireGuard-Basis zur einfachen und sicheren Vernetzung eigener Geräte.
 - **Warum hier:** Ermöglicht verschlüsselte Punkt-zu-Punkt-Verbindungen und Remote-Zugriff ohne Port-Forwarding im Router.
+
+## Backup & Wiederherstellung
 
 ### [Snapper](https://github.com/openSUSE/snapper)
 
@@ -460,6 +465,43 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 - **Zweck:** Spezialisierte Live-Umgebung zum Klonen, Sichern und Wiederherstellen ganzer Partitionen und Festplatten.
 - **Warum hier:** Zuverlässige Bare-Metal-Backup-Lösung und vollwertiger Ersatz für Carbon Copy Cloner bei Systemumzügen.
 
+## System & Desktop
+
+### [koala73/worldmonitor](https://github.com/koala73/worldmonitor)
+
+- **Zweck:** Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
+- **Warum hier:** Es ist plattformuebergreifend nutzbar, unter AGPL-3.0-Lizenz, mit grosser aktiver Community.
+
+### [Vicinae](https://www.vicinae.com/)
+
+- **Zweck:** Moderner, modularer Launcher und Workflow-Manager für Linux als direktes Pendant zu Raycast.
+- **Warum hier:** Ermöglicht erweiterbare Tastatur-Workflows, Skripte und Schnellsuche mit nativer Wayland- und X11-Unterstützung.
+
+### [Ulauncher](https://ulauncher.io/)
+
+- **Zweck:** Schlanker und extrem erweiterbarer Anwendungs-Launcher für Linux-Desktops.
+- **Warum hier:** Bewährte Alfred- und Spotlight-Alternative mit einer großen Auswahl an Community-Erweiterungen.
+
+### [Rofi](https://github.com/davatorium/rofi)
+
+- **Zweck:** Hochgradig anpassbarer, tastaturgesteuerter Anwendungsstarter, Fenstermanager und Dmenu-Ersatz.
+- **Warum hier:** Standardwerkzeug für Tiling-Window-Manager und Minimal-Setups mit umfassender Theme-Unterstützung.
+
+### [Input Remapper](https://github.com/sezanzeb/input-remapper)
+
+- **Zweck:** Grafisches Werkzeug zur flexiblen Neubelegung von Tastatur-, Maus- und Gamepad-Tasten unter Linux.
+- **Warum hier:** Zuverlässige Linux-Alternative zu Karabiner-Elements, funktioniert desktopweit auch unter Wayland.
+
+### [Solaar](https://pwr-solaar.github.io/Solaar/)
+
+- **Zweck:** Konfigurations- und Gerätemanager für Logitech-Mäuse, -Tastaturen und Unifying-/Bolt-Empfänger.
+- **Warum hier:** Ersetzt Logitech Options+ unter Linux vollständig inklusive Akkuanzeige und Gestenkonfiguration.
+
+### [Bazaar](https://github.com/kolunmi/bazaar)
+
+- **Zweck:** Moderner, kuratierter Software-Katalog und Store für Flatpak-Anwendungen unter Linux.
+- **Warum hier:** Bietet eine ansprechende grafische Übersicht zur Entdeckung von Desktop-Programmen ähnlich dem Mac App Store.
+
 ### [GNOME Boxes](https://apps.gnome.org/Boxes/)
 
 - **Zweck:** Einfache, grafische Virtualisierungslösung zur schnellen Einrichtung und Nutzung virtueller Linux- und Windows-Maschinen.
@@ -484,43 +526,6 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 - **Zweck:** Moderner Paketmanager für Arch Linux mit CLI-, TUI- und GTK-Oberfläche auf Basis von libalpm und Flatpak-Unterstützung.
 - **Warum hier:** Bietet eine benutzerfreundliche, performante Alternative zu Pamac und Octopi mit nativer System- und Flatpak-Verwaltung.
-
-## Kommunikation
-
-### [Beeper](https://www.beeper.com/)
-
-- **Zweck:** Einheitliche Chat-App, die WhatsApp, Telegram, Signal, iMessage und weitere Dienste bündelt.
-- **Warum hier:** Zentraler Multi-Protokoll-Messenger für einen aufgeräumten Kommunikations-Workflow auf dem Desktop.
-
-### [Discord](https://discord.com/)
-
-- **Zweck:** Sprach-, Video- und Textkommunikationsplattform für Communities, Teams und Gaming-Gruppen.
-- **Warum hier:** Identische plattformübergreifende Benutzeroberfläche und Funktionsumfang wie unter macOS und Windows.
-
-### [Zen Browser](https://zen-browser.app/)
-
-- **Zweck:** Moderner, anpassbarer Firefox-basierter Browser mit vertikalen Tabs, Split-Views und hoher Geschwindigkeit.
-- **Warum hier:** Schnelle, datenschutzfreundliche Alternative zu Arc und modernen macOS-Browsern.
-
-### [Google Chrome](https://www.google.com/chrome/)
-
-- **Zweck:** Schneller, weit verbreiteter Webbrowser mit enger Google-Ökosystem- und Webstandard-Integration.
-- **Warum hier:** Hohe Kompatibilität, nahtlose Synchronisation von Lesezeichen und Passwörtern sowie Profilverwaltung.
-
-### [Firefox](https://www.firefox.com/)
-
-- **Zweck:** Unabhängiger, quelloffener Standard-Webbrowser mit starkem Fokus auf Privatsphäre und Anpassbarkeit.
-- **Warum hier:** Das quelloffene Rückgrat des freien Internets und Standard-Browser der meisten Linux-Distributionen.
-
-### [Chromium](https://www.chromium.org/)
-
-- **Zweck:** Vollständig quelloffene Basis des Chrome-Browsers ohne proprietäre Google-Komponenten.
-- **Warum hier:** Reine Open-Source-Engine für Web-Entwickler und Nutzer mit Wunsch nach maximaler Quelltext-Transparenz.
-
-### [Vesktop](https://github.com/Vencord/Vesktop)
-
-- **Zweck:** Benutzerdefinierter Discord-Desktop-Client mit integriertem Vencord-Framework und Leistungsoptimierungen.
-- **Warum hier:** Behebt die chronischen Linux-Probleme des offiziellen Discord-Clients und bietet funktionierendes Wayland-Screensharing inklusive Audio-Stream.
 
 ## Für Lehrkräfte
 
