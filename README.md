@@ -20,6 +20,11 @@ Die Empfehlungen werden aus praktischer Nutzung kuratiert. Sie erheben keinen An
 
 ## Büro & Produktivität
 
+### [NeoHtop](https://abdenasser.github.io/neohtop/)
+
+- **Zweck:** Blazing-fast system monitoring for your desktop (built with Rust, Tauri & Svelte).
+- **Warum hier:** Knuepft an das bewaehrte btop-Konzept an, modern neu umgesetzt, und ist plattformuebergreifend nutzbar, unter einer freizuegigen Open-Source-Lizenz, mit grosser aktiver Community.
+
 ### [humanizer](https://github.com/blader/humanizer)
 
 Agent-Skill, der typische Muster KI-generierter Texte entfernt.
