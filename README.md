@@ -311,7 +311,7 @@ Digitale Audio-Workstation für Mehrspuraufnahme, Mixing und MIDI.
 
 ### [Easy Effects](https://github.com/wwmm/easyeffects)
 
-Systemweiter Equalizer und Effektprozessor für PipeWire mit Noise-Cancelling.
+Systemweiter Equalizer und Effektprozessor für PipeWire mit Noise-Cancelling. [Framework-13-Pro-Preset von hegocre](https://gist.github.com/hegocre/fea11a58e47a445d0b470f377cfaa655) (10-Band-EQ, Multiband-Kompressor, Limiter) kann importiert werden; Werte vor der Nutzung an Ausgabegerät und Gehör anpassen.
 
 ### [ALSA Scarlett GUI](https://github.com/geoffreybennett/alsa-scarlett-gui)
 
